@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B9A2-Hero-Travel-assignment</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:slnt@-10..0&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:wght@400;700;800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Sora:wght@100..800&family=Tiro+Bangla:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
 <nav>
+    <div>
     <img src="./Images/Group 40071 (2).png" alt="">
     <h3>Ocean <span>Travel</span></h3>
+</div>
     <ul>
-        <li><a href="">Home</a></li>
+        <li><a class="Home" href="">Home</a></li>
         <li><a href="">Packages</a></li>
         <li><a href="">Testimonial</a></li>
         <li><a href="">Blog</a></li>
@@ -20,18 +25,19 @@
     </ul>
 </nav>
 <div>
-    <div><img src="./Images/Group 13 (1) (1).png" alt=""></div>
-    <div>
-        <h3>Explore Your Travel</h3>
-        <p>Explore the World with SnapTrips. Quick, Easy, and Exciting Travel Experiences. Your go-to platform for hassle-free and spontaneous travel journeys.
+    <div class="banner-img"><img src="./Images/Group 13 (1) (1).png" alt=""></div>
+    <div class="banner">
+        <h3 class="Explore">Explore Your Travel</h3>
+        <p class="World">Explore the World with SnapTrips. Quick, Easy, and Exciting Travel Experiences. Your go-to platform for hassle-free <br> and spontaneous travel journeys.
         </p>
-    </div>
-    <div>
-        <input type="text" placeholder="Where go"><br>
-        <input type="text" placeholder="When"><br>
-<input type="datetime" name="" id="" placeholder="Select Type"><br>
+    
+    <!-- <div class="banner-form">
+        <input type="text" placeholder="Where go"> 
+        <input type="text" placeholder="When"> 
+<input type="text" placeholder="Select Type">
        <input type="search" value="" placeholder=" Find Now">
-    </div>
+    </div> -->
+</div>
 </div>
     </header>
     <main>
@@ -44,79 +50,83 @@
             <li>The Maldives, officially called the Republic of Maldives, is an archipelagic state in the southern region of Asia.The islands and beachside experiences account for the majority of the tourist attractions in Maldives.</li>
             <li>Kashmir is the crown jewel of tourism and one of the most beautiful places to visit in India. It is a part of the union territory of Jammu and Kashmir and lies in the northernmost section of the country.</li></ul>
             <p>Places of natural beauty such as beaches, tropical island resorts, national parks, mountains, deserts and forests, are examples of traditional tourist attractions which people may visit.Cultural tourist attractions can include historical places, sites of significant historic event, monuments, ancient temples, zoos, aquaria, museums and art galleries, botanical gardens, buildings and structures, historic trains and cultural events etc. </p>
-        
+        <button>Read More</button>
     </div>
     <img src="./Images/Rectangle 4.png" alt="">
 </section>
-<div>
+<div class="Destination">
     <h2>Choose Your Destination</h2>
-    <p>Our travel guides as well as our photos should help you find your next destination and choose destination that you feel in your heart  </p>
+    <p>Our travel guides as well as our photos should help you find your next destination and choose <br> destination that you feel in your heart  </p>
 </div>
 <section class="section-2">
 <div class="first"   >
 <div>
-<img src="./Images/Rectangle 5.png" alt="">
+<img  src="./Images/Rectangle 5.png" alt="">
 <p>Maldives</p>
 </div>
 <div>
-<img src="./Images/Rectangle 8.png" alt="">
+<img  src="./Images/Rectangle 8.png" alt="">
 <p>Indonesia</p>
 </div>
 </div>
-<div class="second">
+<div class="first">
 <div>
     <img src="./Images/Rectangle 6.png" alt="">
     <p>Srilanka</p>
 </div>
 <div>
-    <img src="./Images/Rectangle 7.png" alt="">
+    <img  src="./Images/Rectangle 7.png" alt="">
     <p>North America</p>
 </div>
 <div>
-    <img src="./Images/Rectangle 9.png" alt="">
+    <img  src="./Images/Rectangle 9.png" alt="">
     <p>Kashmir</p>
 </div>
 </div>
-<div class="third">
+<div class="first">
 <div>
-    <img src="./Images/Rectangle 11.png" alt="">
+    <img  src="./Images/Rectangle 11.png" alt="">
     <p>Bangladesh</p>
 </div>
 <div>
-    <img src="./Images/Rectangle 10.png" alt="">
+    <img  src="./Images/Rectangle 10.png" alt="">
     <p>Bandarban</p>
 </div>
 </div>
 </section>
-<div>
+<div class="why">
     <h3>Why Choose Us</h3>
-    <p>we take the best of what we've learned over our 25 years of experience as luxury travel agents and bring it all together to create bespoke luxury travel experiences.
+    <p>we take the best of what we've learned over our 25 years of experience as luxury travel agents and bring it <br> all together to create bespoke luxury travel experiences.
     </p>
 </div>
 <section class="section-3">
-<div>
+<div class="Service" id="common">
     <h3>Handpicked Hotels</h3>
     <p>A collection of individual hotels where guests enjoy unique architectural features and interiors of historic properties.Collection of stunning country house hotels and resorts in our Service.we can arrange hotels or resorts anywhere you needs.
     </p>
 </div>
-<div>
+<div class="Class" id="common">
     <h3>World Class Service</h3>
     <p>We are committed to offering travel services of the highest quality, combining our energy and enthusiasm, with our years of experience.Our greatest satisfaction comes in serving satisfied clients who have experienced the joys and inspiration of travel.
         </p>
 </div>
 </section>
-<div>
+<div class="Best">
+<div class="Service" id="common">
     <h3>Best Price Guarantee</h3>
     <p>To ensure that you always receive the best price, we will match or beat any competitor's price. If you book a stay or an activity on Ocean hero and find a cheaper price on another website, you can claim a refund for the difference up to 24 hours.</p>
 </div>
-<div>
+</div>
+<div class="deals">
     <h3>Deals & Discounts</h3>
     <p>The best place to find out all airline discounts, cheap ticket offers and special deals on hotel or resorts </p>
 </div>
 <section class="section-4">
-<div>
-    <div>
-        <img src="./Images/Group 39.png" alt="">
+
+    <div class="sec">
+         <img src="./Images/Group 39.png" alt="">
+        <div class="bazar">
+            <div class="icon">
         <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25C6.615 2.25 2.25 6.615 2.25 12C2.25 17.385 6.615 21.75 12 21.75C17.385 21.75 21.75 17.385 21.75 12C21.75 6.615 17.385 2.25 12 2.25ZM12.75 6C12.75 5.80109 12.671 5.61032 12.5303 5.46967C12.3897 5.32902 12.1989 5.25 12 5.25C11.8011 5.25 11.6103 5.32902 11.4697 5.46967C11.329 5.61032 11.25 5.80109 11.25 6V12C11.25 12.414 11.586 12.75 12 12.75H16.5C16.6989 12.75 16.8897 12.671 17.0303 12.5303C17.171 12.3897 17.25 12.1989 17.25 12C17.25 11.8011 17.171 11.6103 17.0303 11.4697C16.8897 11.329 16.6989 11.25 16.5 11.25H12.75V6Z" fill="#FF5400"/>
           </svg>7 Day / 6 Night</p>
@@ -127,18 +137,19 @@
         <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M11.54 22.351L11.61 22.391L11.638 22.407C11.749 22.467 11.8733 22.4985 11.9995 22.4985C12.1257 22.4985 12.25 22.467 12.361 22.407L12.389 22.392L12.46 22.351C12.8511 22.1191 13.2328 21.8716 13.604 21.609C14.5651 20.9305 15.463 20.1667 16.287 19.327C18.231 17.337 20.25 14.347 20.25 10.5C20.25 8.31196 19.3808 6.21354 17.8336 4.66637C16.2865 3.11919 14.188 2.25 12 2.25C9.81196 2.25 7.71354 3.11919 6.16637 4.66637C4.61919 6.21354 3.75 8.31196 3.75 10.5C3.75 14.346 5.77 17.337 7.713 19.327C8.53664 20.1667 9.43427 20.9304 10.395 21.609C10.7666 21.8716 11.1485 22.1191 11.54 22.351ZM12 13.5C12.7956 13.5 13.5587 13.1839 14.1213 12.6213C14.6839 12.0587 15 11.2956 15 10.5C15 9.70435 14.6839 8.94129 14.1213 8.37868C13.5587 7.81607 12.7956 7.5 12 7.5C11.2044 7.5 10.4413 7.81607 9.87868 8.37868C9.31607 8.94129 9 9.70435 9 10.5C9 11.2956 9.31607 12.0587 9.87868 12.6213C10.4413 13.1839 11.2044 13.5 12 13.5Z" fill="#FF5400"/>
           </svg>Bangladesh</p>
-   
-    <div>
+   </div>
+    
         <h2>Tour To cox's bazar</h2>
         <p>The real beauty of neater in the world Cox's bazar beach. We really enjoyed our time ! World's longest beach</p>
         <h1>Price: $300-500</h1>
         <button>Book Now</button>
     </div>
 </div>
-<div>
-    <img src="./Images/Group 40.png" alt="">
-    <div>
-        <div>
+<div class="sec">
+  <img src="./Images/Group 40.png" alt="">
+    
+    <div class="tour">
+        <div class="icon">
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25C6.615 2.25 2.25 6.615 2.25 12C2.25 17.385 6.615 21.75 12 21.75C17.385 21.75 21.75 17.385 21.75 12C21.75 6.615 17.385 2.25 12 2.25ZM12.75 6C12.75 5.80109 12.671 5.61032 12.5303 5.46967C12.3897 5.32902 12.1989 5.25 12 5.25C11.8011 5.25 11.6103 5.32902 11.4697 5.46967C11.329 5.61032 11.25 5.80109 11.25 6V12C11.25 12.414 11.586 12.75 12 12.75H16.5C16.6989 12.75 16.8897 12.671 17.0303 12.5303C17.171 12.3897 17.25 12.1989 17.25 12C17.25 11.8011 17.171 11.6103 17.0303 11.4697C16.8897 11.329 16.6989 11.25 16.5 11.25H12.75V6Z" fill="#FF5400"/>
               </svg>7 Day / 6 Night</p>
@@ -156,9 +167,10 @@
         <button>Book Now</button>
     </div>
 </div>
-<div>
-    <div>
-        <img src="./Images/Group 39.png" alt="">
+<div class="sec">
+     <img src="./Images/Group 39.png" alt="">
+        <div class="bazar">
+            <div class="icon">
         <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25C6.615 2.25 2.25 6.615 2.25 12C2.25 17.385 6.615 21.75 12 21.75C17.385 21.75 21.75 17.385 21.75 12C21.75 6.615 17.385 2.25 12 2.25ZM12.75 6C12.75 5.80109 12.671 5.61032 12.5303 5.46967C12.3897 5.32902 12.1989 5.25 12 5.25C11.8011 5.25 11.6103 5.32902 11.4697 5.46967C11.329 5.61032 11.25 5.80109 11.25 6V12C11.25 12.414 11.586 12.75 12 12.75H16.5C16.6989 12.75 16.8897 12.671 17.0303 12.5303C17.171 12.3897 17.25 12.1989 17.25 12C17.25 11.8011 17.171 11.6103 17.0303 11.4697C16.8897 11.329 16.6989 11.25 16.5 11.25H12.75V6Z" fill="#FF5400"/>
           </svg>7 Day / 6 Night</p>
@@ -169,8 +181,8 @@
         <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M11.54 22.351L11.61 22.391L11.638 22.407C11.749 22.467 11.8733 22.4985 11.9995 22.4985C12.1257 22.4985 12.25 22.467 12.361 22.407L12.389 22.392L12.46 22.351C12.8511 22.1191 13.2328 21.8716 13.604 21.609C14.5651 20.9305 15.463 20.1667 16.287 19.327C18.231 17.337 20.25 14.347 20.25 10.5C20.25 8.31196 19.3808 6.21354 17.8336 4.66637C16.2865 3.11919 14.188 2.25 12 2.25C9.81196 2.25 7.71354 3.11919 6.16637 4.66637C4.61919 6.21354 3.75 8.31196 3.75 10.5C3.75 14.346 5.77 17.337 7.713 19.327C8.53664 20.1667 9.43427 20.9304 10.395 21.609C10.7666 21.8716 11.1485 22.1191 11.54 22.351ZM12 13.5C12.7956 13.5 13.5587 13.1839 14.1213 12.6213C14.6839 12.0587 15 11.2956 15 10.5C15 9.70435 14.6839 8.94129 14.1213 8.37868C13.5587 7.81607 12.7956 7.5 12 7.5C11.2044 7.5 10.4413 7.81607 9.87868 8.37868C9.31607 8.94129 9 9.70435 9 10.5C9 11.2956 9.31607 12.0587 9.87868 12.6213C10.4413 13.1839 11.2044 13.5 12 13.5Z" fill="#FF5400"/>
           </svg>Sri Lanka</p>
-   
-    <div>
+   </div>
+    
         <h2>Tour to Sri Lanka</h2>
         <p>One of the most jaw-dropping experience you can ever have in Sri Lanka is the World's End on the Horton Plains.</p>
         <h1>Price: $500-$700</h1>
@@ -178,10 +190,12 @@
     </div>
 </div>
 </section>
+<div class="All">
 <button class="Packages">See All Packages</button>
+</div>
 <section class="section-5">
-    <div>
-        <h3>A Simple Perfect Place <br> To Get Lost</h3>
+    <div class="lost">
+        <h4>A Simple Perfect Place <br> To Get Lost</h4>
         <p>There are so many awe-inspiring destinations dotted around our world, we couldn't possibly include them all in just one list. But, these breathtaking spots are worth bumping to the top of your travel bucket list</p>
         <ul>
             <li>when you leave a beautiful place,you carry it with you wherever you go.</li>
@@ -189,9 +203,9 @@
         </ul>
         <button>See More</button>
     </div>
-    <div>
+    <div class="mountain">
         <img src="./Images/Group 40089.png" alt="">
-        <div><h2>Watch Our Mountain in <br> Bangladesh</h2></div>
+        <div class="watch"><h2>Watch Our Mountain in <br> Bangladesh</h2></div>
     </div>
 </section>
 <section class="section-5">
