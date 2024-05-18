@@ -100,10 +100,16 @@ span {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
+    padding: 0px 300px;
+}
+
+.World span {
+    display: none;
 }
 
 .first-form {
+
+
     display: inline-flex;
     align-items: flex-start;
     border-radius: 8px;
@@ -112,8 +118,7 @@ span {
     gap: 24px;
 }
 
-.first-form div,
-input,
+.first-form input,
 select,
 button {
     width: 174px;
@@ -127,8 +132,23 @@ button {
     font-weight: 400;
 }
 
-input {
+input,
+select {
     outline: none;
+}
+
+.first-form button {
+    color: #FFF;
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.svgin {
+    position: relative;
+    top: 5px;
+    right: 5px;
 }
 
 header {
@@ -139,9 +159,12 @@ header {
     display: flex;
     align-items: center;
 }
-.first-form input,select{
+
+.first-form input,
+select {
     padding-left: 16px;
 }
+
 .section-1 button {
     margin-left: 26px;
 }
@@ -178,11 +201,13 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-left:-10px ;
+    margin-left: -10px;
 }
-.sec-1-div{
+
+.sec-1-div {
     padding-right: 5px;
 }
+
 button {
     width: 174px;
     height: 52px;
@@ -243,6 +268,12 @@ button {
 .why p {
     margin-top: -18px;
     margin-bottom: 60px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+}
+
+.why span {
+    display: none;
 }
 
 .section-3 {
@@ -253,8 +284,14 @@ button {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+
 }
-.Service h3{
+
+.Service svg {
+    text-align: start;
+}
+
+.Service h3 {
     margin: 0px;
     text-align: start;
     color: #131318;
@@ -262,6 +299,7 @@ button {
     font-size: 24px;
     font-weight: 800;
 }
+
 #common {
     width: 530px;
     height: 284px;
@@ -275,18 +313,21 @@ button {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-.Class h3{
+
+.Class h3 {
     margin: 0px;
     text-align: start;
     color: #131318;
-font-family: "Mulish";
-font-size: 24px;
-font-weight: 800;
+    font-family: "Mulish";
+    font-size: 24px;
+    font-weight: 800;
 }
-.Class h1{
+
+.Class h1 {
     margin: 20px;
 }
-.Best {
+
+.best {
     display: flex;
     justify-content: center;
     margin-top: 24px;
@@ -337,37 +378,42 @@ font-weight: 800;
     margin-bottom: 24px;
 }
 
-.tour h2{
+.tour h2 {
     color: #131318;
     font-family: "Mulish";
     font-size: 24px;
     font-weight: 800;
 }
-.bazar h2{
+
+.bazar h2 {
     color: #131318;
     font-family: "Mulish";
     font-size: 24px;
     font-weight: 800;
 }
-.tour h1{
-    color: #FF5400;
-    font-family: "Mulish";
-    font-size: 20px;
-    font-weight: 800; 
-}
-.bazar h1{
+
+.tour h1 {
     color: #FF5400;
     font-family: "Mulish";
     font-size: 20px;
     font-weight: 800;
 }
+
+.bazar h1 {
+    color: #FF5400;
+    font-family: "Mulish";
+    font-size: 20px;
+    font-weight: 800;
+}
+
 .icon {
     display: flex;
     gap: 45px;
 }
 
 .sec {
-    margin-bottom: -378px;
+    margin-bottom: -376px;
+  
 
 }
 
@@ -442,27 +488,32 @@ font-weight: 800;
     display: flex;
     justify-content: space-between;
 }
-#int{
-   padding-left: 16px;
+
+#int {
+    padding-left: 16px;
 }
-.sub{
-    background: #FF5400;  
+
+.sub {
+    background: #FF5400;
     border-radius: 8px;
 }
-.sup{ 
+
+.sup {
     color: #FFF;
-text-align: center;
-font-family: "Mulish";
-font-size: 20px;
-font-weight: 800;
-padding-left: 160px;
+    text-align: center;
+    font-family: "Mulish";
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 160px;
 }
-.Newsletter h2{
+
+.Newsletter h2 {
     color: #131318;
-font-family: "Mulish";
-font-size: 24px;
-font-weight: 800;
+    font-family: "Mulish";
+    font-size: 24px;
+    font-weight: 800;
 }
+
 .up {
     width: 324px;
     height: 120px;
@@ -507,11 +558,12 @@ font-weight: 800;
     background: rgba(19, 19, 24, 0.10);
 }
 
-.section-6 input{
+.section-6 input {
     width: 393px;
     height: 52px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+    border: none;
 }
 
 .section-6 div {
@@ -584,9 +636,546 @@ footer p {
 .footer-all {
     padding-top: 60px;
 }
-.last{
+
+.last {
     color: #131318;
-font-family: "Inter";
-font-size: 16px;
-font-weight: 300;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:576px) {
+    body {
+        width: 335px;
+        height: 483px;
+        padding: 20px;
+        margin: 0px -140px;
+    }
+    header{
+        margin-bottom: 0px;
+    }
+nav img{
+    width: 28.724px;
+height: 33.516px;
+}
+nav h3{
+    width: 120px;
+    font-size: 21.543px;
+}
+    .first-form {
+        width: 255px;
+        height: 2556px;
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 16px;
+        margin-bottom: 10px;
+    }
+
+    .first-form select,
+    button {
+        width: 255px;
+        height: 52px;
+
+    }
+
+    .first-form input {
+        width: 237px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .banner {
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+    }
+
+    .Explore {
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .World {
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFF;
+        text-align: center;
+        padding-top: 18px;
+        padding: 16px;
+    }
+
+    .banner-img img {
+        width: 335px;
+        height: 500px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+
+    .section-1 {
+        display: inline;
+    }
+
+    .sec-1-div {
+        width: 335px;
+        text-align: justify;
+        margin-bottom: 24px
+    }
+
+    .sec-1-div h3 {
+        color: #131318;
+        text-align: start;
+        font-family: "Mulish";
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .sec-1-div p {
+        color: #5A5A5D;
+        font-family: "Mulish";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .sec-1-div li {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: "Mulish";
+        font-size: 14px;
+    }
+
+    .sec-1-div button {
+        width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .section-1 img {
+        width: 335px;
+        height: 342px;
+        margin-left: -20px;
+    }
+
+    .Destination {
+        width: 335px;
+    }
+
+    .Destination p {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: "Mulish";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .Destination span {
+        display: none;
+    }
+
+    .Destination h2 {
+        color: #131318;
+        text-align: center;
+        font-family: "Mulish";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .section-2 {
+        width: 335px;
+        margin-top: -90px;
+    }
+
+    .Maldives,
+    .Indonesia,
+    .Srilanka,
+    .North-America,
+    .Kashmir,
+    .Bangladesh,
+    .Bandarban {
+        width: 335px;
+        height: 176px;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .Images-setup {
+        width: 335px;
+
+    }
+
+    .Images-setup {
+        margin-bottom: -80px;
+    }
+
+    .Images-setup p {
+        top: -125px;
+    }
+
+    .why {
+        width: 335px;
+        margin-bottom: -35px;
+    }
+
+    .why h3 {
+        color: #131318;
+        text-align: center;
+        font-family: "Mulish";
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .why p {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+    .section-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #common {
+        width: 300px;
+    }
+
+    #common svg {
+        width: 48px;
+        height: 48px;
+
+    }
+
+    #common h3 {
+        color: #131318;
+        text-align: start;
+        font-family: "Mulish";
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    #common p {
+        color: #5A5A5D;
+        font-family: "Mulish";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .best {
+        margin-left: 183px;
+        margin-top: 16px;
+        margin-bottom: -20px;
+    }
+
+    .deals {
+        width: 335px;
+    }
+
+    .deals h3 {
+        color: #131318;
+        font-family: "Mulish";
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 0px;
+    }
+
+    .deals p {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: "Mulish";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 25px 0px;
+    }
+
+    .section-4 {
+        width: 335px;
+    }
+
+    .sec img {
+        width: 335px;
+        height: 500px;
+        border-radius: 16px;
+        margin-bottom: -60px;
+    }
+
+    .bazar,
+    .tour {
+        width: 300px;
+        height: 297px;
+        flex-shrink: 0;
+        padding: 0px;
+        
+    }
+    
+    }
+
+    .tour h2{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 0px 16px;
+        
+    }
+    .bazar h2{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 0px 16px;
+        
+    }
+
+    
+    .tour p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 0px 16px;
+    }
+    .tour span{
+        display: none;
+    }
+    .bazar p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px; 
+        padding: 0px 16px;
+
+    }
+    .bazar span{
+        display: none;
+    }
+   .sec h1{
+    font-size: 16px;
+    padding: 0px 16px;
+   }
+    .sec button{
+        width: 130px;
+height: 40px;
+font-size: 18px;
+margin: 0px 16px;
+    }
+    
+    .bazar{
+        margin-top: 128px;
+        left: 15px;
+      
+    }
+    .tour{
+        margin-top: 128px;
+        left: 15px;
+    }
+   .icon{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+   }
+    .jakat{
+        display: flex;
+        margin-bottom: -10px;
+    }
+    .day{
+        margin-bottom: -50px;
+    }
+    
+
+    .section-5 {
+        width: 335px;
+        flex-direction: column;
+        text-align: justify;
+        margin: 0px 0px;
+    }
+
+    .section-5 h4 {
+        color: #131318;
+        font-family: "Mulish";
+        font-size: 20px;
+
+        font-weight: 800;
+        line-height: 30px;
+    }
+
+    .section-5 p {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: "Mulish";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .section-5 li {
+        color: #131318;
+        font-family: "Mulish";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+    .section-5 button {
+        width: 174px;
+        height: 52px;
+        margin: 0px 0px;
+    }
+
+    .mountain img {
+        width: 335px;
+        margin: 0px 0px;
+    }
+
+    .watch {
+        bottom: 170px;
+    }
+
+    .watch h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: "Mulish";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+
+    .section-6 {
+        display: inline;
+        width: 335px;
+
+    }
+
+    .section-6 form {
+        width: 335px;
+        height: 353px;
+
+    }
+
+    .Newsletter {
+        width: 300px;
+        padding: 0px 16px;
+    }
+
+    .Newsletter input,
+    sub {
+        width: 285px;
+        margin: -4px 0px;
+
+    }
+
+    .Newsletter h2 {
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .Newsletter p {
+        color: #5A5A5D;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: -4px 0px;
+    }
+
+    .sup {
+        padding-left: 70px;
+    }
+
+    .mountain {
+        margin: 25px 0px -65px 0px;
+    }
+
+    .save {
+        width: 335px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .up {
+        width: 214.023px;
+        height: 79.268px;
+        bottom: 133px;
+        left: 119px;
+    }
+
+    .up h4 {
+        color: #FFF;
+        font-size: 15.854px;
+        font-weight: 400;
+        padding-top: 18px;
+    }
+
+    .up h5 {
+        color: #FFF;
+        font-size: 21.138px;
+        font-weight: 800;
+        padding-top: 10px;
+
+    }
+
+    footer {
+        width: 365px;
+        height: 349px;
+        margin-left: 120px;
+        margin-top: -95px;
+    }
+
+    .footer-all {
+        padding: 35px;
+        padding: 0px;
+    }
+
+    .footer-ti {
+        margin: -15px 0px;
+
+    }
+
+    .footer-ti img {
+        width: 28.724px;
+        height: 33.516px;
+        position: relative;
+        top: 20px;
+
+    }
+
+    .footer-ti h3 {
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .luxury {
+        color: #5A5A5D;
+padding: 0px 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .luxury span {
+        display: none;
+    }
+
+    .svg {
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .h-line {
+        width: 335px;
+        margin: 20px 50px 0px 16px;
+    }
+.last{
+    font-size: 14px;
+}
 }
